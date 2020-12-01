@@ -5,7 +5,7 @@
 
 
 
-	<groupId>org.vivoweb</groupId>
+	<groupId>fr.ehess</groupId>
 	<artifactId>vitro-languages-EHESS</artifactId>
 	<version>1.11.2-SNAPSHOT</version>
 	<packaging>pom</packaging>
@@ -190,6 +190,7 @@
 		</repository>
 	</distributionManagement>
 	<modules>
-		<module>webapp</module>
+        <module>fr_FR</module>
+		<module>en_US</module>
 	</modules>
 </project>
