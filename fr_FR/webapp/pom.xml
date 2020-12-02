@@ -5,7 +5,7 @@
     <artifactId>vitro-languages-EHESS-fr_FR</artifactId>
     <version>1.11.2-SNAPSHOT</version>
   </parent>
-  <artifactId>vitro-languages-webapp-EHESS-fr_FR</artifactId>
+  <artifactId>vitro-languages-EHESS-webapp-fr_FR</artifactId>
   <packaging>war</packaging>
-  <name>Vitro Languages for Web App EHESS-fr_FR</name>
+  <name>Vitro Languages EHESS for Web App fr_FR</name>
 </project>

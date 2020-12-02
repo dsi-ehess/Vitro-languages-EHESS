@@ -13,7 +13,7 @@
     </modules>
     <version>1.11.2-SNAPSHOT</version>
     <groupId>fr.ehess</groupId>
-    <name>Vitro Languages for EHESS-fr_FR</name>
+    <name>Vitro Languages EHESS for fr_FR</name>
     <build>
         <plugins>
             <plugin>
