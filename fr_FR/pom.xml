@@ -1,21 +1,19 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
-    <groupId>org.vivoweb</groupId>
-    <artifactId>vitro-languages-webapp-EHESS</artifactId>
-    <version>1.11.2-SNAPSHOT</version>
-    <packaging>war</packaging>
-
     <parent>
-        <groupId>org.vivoweb</groupId>
+        <groupId>fr.ehess</groupId>
         <artifactId>vitro-languages-EHESS</artifactId>
         <version>1.11.2-SNAPSHOT</version>
-        <relativePath>..</relativePath>
     </parent>
-
-    <name>Vitro Languages for Web App EHESS</name>
-
+    <artifactId>vitro-languages-EHESS-fr_FR</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>Vitro-languages-EHESS-fr_FR-webapp</module>
+    </modules>
+    <version>1.11.2-SNAPSHOT</version>
+    <groupId>fr.ehess</groupId>
+    <name>Vitro Languages EHESS for fr_FR</name>
     <build>
         <plugins>
             <plugin>
